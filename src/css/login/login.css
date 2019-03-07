@@ -1,0 +1,42 @@
+#go{
+       -fx-background-color:white;
+       -fx-background-radius: 10px;
+}
+
+#welcome-text {
+   -fx-font-size: 32px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+#ensure{
+	-fx-background-radius:30px;
+}
+
+#register{
+	-fx-background-radius:30px;
+}
+
+#close{
+	-fx-background-image:url("skin/close.png");
+	-fx-background-color:transparent;
+    -fx-border:none;
+}
+
+#close:hover{
+	-fx-background-image:url("skin/close-hover.png");
+	-fx-background-color:transparent;
+    -fx-border-color:none;
+}
+
+#min{
+	-fx-background-image:url("skin/minimize.png");
+	-fx-background-color:transparent;
+    -fx-border:none;
+}
+#min:hover{
+	-fx-background-image:url("skin/minimize-hover.png");
+	-fx-background-color:transparent;
+    -fx-border:none;
+}

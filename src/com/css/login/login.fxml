@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import org.controlsfx.control.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import org.kairos.components.*?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="436.0"
+	prefWidth="387.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="com.css.controller.loginController">
+	<children>
+		<Label layoutX="130.0" layoutY="50.0" text="欢迎登陆"
+			style="-fx-font-size: 32px;-fx-font-family:Arial Black;-fx-text-fill:rgb(30.0,170.0,255.0);-fx-fill: #818181;-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );" />
+		<MaterialButton fx:id="ensure" layoutX="110.0" layoutY="245.0"
+			mnemonicParsing="false" prefHeight="29.0" prefWidth="162.0" text="确定" />
+		<TextInputLayout layoutX="10.0" layoutY="113.0"
+			prefHeight="35.0" prefWidth="368.0">
+			<TextField fx:id="account" promptText="编号" />
+		</TextInputLayout>
+		<TextInputLayout layoutX="10.0" layoutY="183.0"
+			prefHeight="35.0" prefWidth="368.0">
+			<PasswordField fx:id="pass" promptText="密码" />
+		</TextInputLayout>
+	</children>
+</Pane>

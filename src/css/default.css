@@ -1,0 +1,153 @@
+/* #window-resize-button {
+    -fx-background-image: url("../image/window-corner.png");
+    -fx-background-position: right 1px bottom 1px;
+    -fx-background-repeat: no-repeat;
+}*/
+
+.pnbtn{
+	-fx-background-color:transparent;
+}
+
+.pnbtn:hover{
+	-fx-background-color: transparent;
+	-fx-border-color: rgb(30.0,170.0,255.0);
+}
+
+#window-resize-button{
+    -fx-background-image: url("../image/skin/resizeSE.png");
+    -fx-background-position: right 1px bottom 1px;
+    -fx-background-repeat: no-repeat;
+}
+
+
+#top{
+	-fx-background-color:rgb(30.0,170.0,255.0);
+}
+
+.btn{
+	-fx-background-color:rgb(30.0,170.0,255.0);
+	-fx-text-fill: white;
+}
+
+#close{
+	-fx-background-image:url("../image/skin/close.png");
+	-fx-background-color:transparent;
+    -fx-border:none;
+    -fx-background-size:stretch;
+}
+
+#close:hover{
+	-fx-background-image:url("../image/skin/close-hover.png");
+	-fx-background-color:transparent;
+    -fx-border:none;
+    -fx-background-size:stretch;
+}
+
+#close:pressed{
+	-fx-background-image:url("../image/skin/close-hover.png");
+	-fx-background-color:transparent;
+    -fx-border:none;
+    -fx-background-size:stretch;
+}
+
+#min{
+	-fx-background-image:url("../image/skin/minimize.png");
+	-fx-background-color:transparent;
+    -fx-border:none;
+    -fx-background-size:stretch;
+}
+#min:hover{
+	-fx-background-image:url("../image/skin/minimize-hover.png");
+	-fx-background-color:transparent;
+    -fx-border:none;
+    -fx-background-size:stretch;
+}
+
+#min:pressed{
+	-fx-background-image:url("../image/skin/minimize-hover.png");
+	-fx-background-color:transparent;
+    -fx-border:none;
+    -fx-background-size:stretch;
+}
+
+#max{
+	-fx-background-image:url("../image/skin/maximize.png");
+	-fx-background-color:transparent;
+    -fx-border:none;
+    -fx-background-size:stretch;
+}
+
+#max:hover{
+	-fx-background-image:url("../image/skin/maximize-hover.png");
+	-fx-background-color:transparent;
+    -fx-border:none;
+    -fx-background-size:stretch;
+}
+
+#max:pressed{
+	-fx-background-image:url("../image/skin/maximize-hover.png");
+	-fx-background-color:transparent;
+    -fx-border:none;
+      -fx-background-size:stretch;
+}
+
+/*-----------------------------------  tab css --------------------------------------*/
+.tab-content-area {
+    -fx-border-radius: 0 15 15 15;
+    -fx-border-width: 1 1 1 1;
+    -fx-border-color: rgb(30.0,170.0,255.0);
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0.0;
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+.tab-pane .tab
+{
+    -fx-background-color: rgb(30.0,170.0,255.0);    
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color:rgb(190, 0, 200); 
+   
+    /*-fx-border-color: rgb(30,170,255);
+    -fx-border-width:3.82px; */
+}
+
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+    -fx-font-size: 16.0px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+}
+
+.radio-button {
+    -fx-font-size: 20;
+}
+
+.radio-button.box {
+  -fx-background-insets: 0;
+  -fx-background-radius: 0;
+  -fx-background-color: transparent;
+}
+
+.radio-button>.box>.mark {
+  -fx-background-image: url("../imageunmarked.png");
+  -fx-background-position: center;
+  -fx-background-repeat: stretch;
+  -fx-shape: none;
+}
+
+.radio-button:selected>.box>.mark{
+  -fx-background-color: transparent;
+  -fx-background-image: url("../imagemarked.png");
+}
